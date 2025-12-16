@@ -1,0 +1,499 @@
+{
+  "Version": "2019-10-30",
+  "StartAction": "fc9bf756-76f6-44c9-83e1-20fc53ca3857",
+  "Metadata": {
+    "entryPointPosition": {
+      "x": -197.6,
+      "y": -30.4
+    },
+    "ActionMetadata": {
+      "c4c9ce5a-9e24-4e46-be97-1df7665f47a2": {
+        "position": {
+          "x": 353.6,
+          "y": 688
+        }
+      },
+      "48a113df-9f5b-4460-b15d-e20daeb651d7": {
+        "position": {
+          "x": 498.4,
+          "y": 52
+        },
+        "conditionMetadata": [
+          {
+            "id": "2f4d2def-843d-492a-8793-1289fc210329",
+            "value": "1"
+          },
+          {
+            "id": "f910b5b9-76c5-4b12-b6c1-6abac50f10da",
+            "value": "2"
+          },
+          {
+            "id": "5dacec01-11ec-4828-b72e-a820e1ffbd96",
+            "value": "3"
+          }
+        ]
+      },
+      "Welcome Prompt": {
+        "position": {
+          "x": 200,
+          "y": 183.2
+        },
+        "isFriendlyName": true
+      },
+      "5699dd0a-5d26-486c-b5f0-20dda2e4d263": {
+        "position": {
+          "x": -104,
+          "y": 407.2
+        },
+        "parameters": {
+          "EventHooks": {
+            "CustomerQueue": {
+              "displayName": "REP2 customer queue"
+            }
+          }
+        },
+        "contactFlow": {
+          "text": "REP2 customer queue",
+          "id": "arn:aws:connect:us-west-2:629477142048:instance/c22f838f-ac5e-42e6-90c9-6b950427cefb/contact-flow/a6ba20d3-946e-423a-a173-fb7fcc5cb331"
+        },
+        "customerOrAgent": true
+      },
+      "fc9bf756-76f6-44c9-83e1-20fc53ca3857": {
+        "position": {
+          "x": -84,
+          "y": 27.2
+        }
+      },
+      "8c1bff00-ee69-4aea-90ba-cc31608da543": {
+        "position": {
+          "x": 2356,
+          "y": 635.2
+        }
+      },
+      "108d5f57-08cb-40f4-8cc0-7350bc39dd4b": {
+        "position": {
+          "x": 2072.8,
+          "y": 224
+        }
+      },
+      "3d35c09d-4a2f-493b-8824-5fb54be46431": {
+        "position": {
+          "x": 764,
+          "y": 419.2
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "Technical Support Queue"
+          }
+        },
+        "queue": {
+          "text": "Technical Support Queue"
+        }
+      },
+      "42aa04fd-859b-488c-90d8-576f7300416c": {
+        "position": {
+          "x": 790.4,
+          "y": 228
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "Customer Support Queue"
+          }
+        },
+        "queue": {
+          "text": "Customer Support Queue"
+        }
+      },
+      "c4ffb451-0b19-4614-9277-87f2b1d7f397": {
+        "position": {
+          "x": 791.2,
+          "y": 32
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "Sales Queue"
+          }
+        },
+        "queue": {
+          "text": "Sales Queue"
+        }
+      },
+      "b3e0c6cd-8a74-4934-9046-08e81483a1ed": {
+        "position": {
+          "x": 1776.8,
+          "y": 12.8
+        }
+      },
+      "ce8edbf7-1992-4349-9541-bc4aad93accb": {
+        "position": {
+          "x": 1270.4,
+          "y": 551.2
+        }
+      },
+      "4572d6d7-c495-4e5f-9704-25974e5b2046": {
+        "position": {
+          "x": 1818.4,
+          "y": 230.4
+        }
+      },
+      "f192523b-12d5-4c06-b37d-9693989c1509": {
+        "position": {
+          "x": 1116,
+          "y": 41.6
+        },
+        "parameters": {
+          "HoursOfOperationId": {
+            "displayName": "Always Open"
+          }
+        },
+        "Hours": {
+          "id": "arn:aws:connect:us-west-2:629477142048:instance/c22f838f-ac5e-42e6-90c9-6b950427cefb/operating-hours/76020856-d282-4c3d-b929-a3bac6c7e99c",
+          "text": "Always Open"
+        }
+      },
+      "Inbound CWF": {
+        "position": {
+          "x": 1473.6,
+          "y": 266.4
+        },
+        "isFriendlyName": true,
+        "parameters": {
+          "EventHooks": {
+            "CustomerWhisper": {
+              "displayName": "REP Customer Whisper Flow"
+            }
+          }
+        },
+        "contactFlow": {
+          "text": "REP Customer Whisper Flow",
+          "id": "arn:aws:connect:us-west-2:629477142048:instance/c22f838f-ac5e-42e6-90c9-6b950427cefb/contact-flow/1fed741a-c869-4288-9a6d-43d86a5114f8"
+        },
+        "customerOrAgent": true
+      }
+    },
+    "Annotations": [
+      {
+        "type": "default",
+        "id": "0d0cb921-f192-4619-84c0-ad882614fe65",
+        "content": "Main Branch, Inbound Flow",
+        "actionId": "",
+        "isFolded": true,
+        "position": {
+          "x": -256,
+          "y": 113
+        },
+        "size": {
+          "height": 295,
+          "width": 300
+        }
+      }
+    ],
+    "name": "REP2 BusyPing Inbound Flow",
+    "description": "",
+    "type": "contactFlow",
+    "status": "PUBLISHED",
+    "hash": {}
+  },
+  "Actions": [
+    {
+      "Parameters": {
+        "Text": "Sorry this is an invalid option."
+      },
+      "Identifier": "c4c9ce5a-9e24-4e46-be97-1df7665f47a2",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "48a113df-9f5b-4460-b15d-e20daeb651d7",
+        "Errors": [
+          {
+            "NextAction": "ce8edbf7-1992-4349-9541-bc4aad93accb",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "False",
+        "InputTimeLimitSeconds": "5",
+        "Text": "Please press 1 for Sales, 2 for Customer Service or 3 for Technical Support."
+      },
+      "Identifier": "48a113df-9f5b-4460-b15d-e20daeb651d7",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "c4c9ce5a-9e24-4e46-be97-1df7665f47a2",
+        "Conditions": [
+          {
+            "NextAction": "c4ffb451-0b19-4614-9277-87f2b1d7f397",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "1"
+              ]
+            }
+          },
+          {
+            "NextAction": "42aa04fd-859b-488c-90d8-576f7300416c",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "2"
+              ]
+            }
+          },
+          {
+            "NextAction": "3d35c09d-4a2f-493b-8824-5fb54be46431",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "3"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "ce8edbf7-1992-4349-9541-bc4aad93accb",
+            "ErrorType": "InputTimeLimitExceeded"
+          },
+          {
+            "NextAction": "c4c9ce5a-9e24-4e46-be97-1df7665f47a2",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "ce8edbf7-1992-4349-9541-bc4aad93accb",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Thank you for calling BusyPing Broadband Services"
+      },
+      "Identifier": "Welcome Prompt",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "48a113df-9f5b-4460-b15d-e20daeb651d7",
+        "Errors": [
+          {
+            "NextAction": "ce8edbf7-1992-4349-9541-bc4aad93accb",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "EventHooks": {
+          "CustomerQueue": "arn:aws:connect:us-west-2:629477142048:instance/c22f838f-ac5e-42e6-90c9-6b950427cefb/contact-flow/a6ba20d3-946e-423a-a173-fb7fcc5cb331"
+        }
+      },
+      "Identifier": "5699dd0a-5d26-486c-b5f0-20dda2e4d263",
+      "Type": "UpdateContactEventHooks",
+      "Transitions": {
+        "NextAction": "Welcome Prompt",
+        "Errors": [
+          {
+            "NextAction": "ce8edbf7-1992-4349-9541-bc4aad93accb",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "RecordingBehavior": {
+          "RecordedParticipants": [
+            "Agent",
+            "Customer"
+          ],
+          "IVRRecordingBehavior": "Disabled"
+        }
+      },
+      "Identifier": "fc9bf756-76f6-44c9-83e1-20fc53ca3857",
+      "Type": "UpdateContactRecordingBehavior",
+      "Transitions": {
+        "NextAction": "5699dd0a-5d26-486c-b5f0-20dda2e4d263"
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "8c1bff00-ee69-4aea-90ba-cc31608da543",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "Text": "Sorry, all agents are busy at this time.  Please call back later."
+      },
+      "Identifier": "108d5f57-08cb-40f4-8cc0-7350bc39dd4b",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "8c1bff00-ee69-4aea-90ba-cc31608da543",
+        "Errors": [
+          {
+            "NextAction": "ce8edbf7-1992-4349-9541-bc4aad93accb",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-west-2:629477142048:instance/c22f838f-ac5e-42e6-90c9-6b950427cefb/queue/da8cb9fe-9beb-4d52-a4d0-22a93f3a3a0d"
+      },
+      "Identifier": "3d35c09d-4a2f-493b-8824-5fb54be46431",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "f192523b-12d5-4c06-b37d-9693989c1509",
+        "Errors": [
+          {
+            "NextAction": "ce8edbf7-1992-4349-9541-bc4aad93accb",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-west-2:629477142048:instance/c22f838f-ac5e-42e6-90c9-6b950427cefb/queue/ccbcd831-a243-438b-8ba9-3c1285945226"
+      },
+      "Identifier": "42aa04fd-859b-488c-90d8-576f7300416c",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "f192523b-12d5-4c06-b37d-9693989c1509",
+        "Errors": [
+          {
+            "NextAction": "ce8edbf7-1992-4349-9541-bc4aad93accb",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-west-2:629477142048:instance/c22f838f-ac5e-42e6-90c9-6b950427cefb/queue/a9bf18db-b552-4fd8-bd23-875fab3abe4c"
+      },
+      "Identifier": "c4ffb451-0b19-4614-9277-87f2b1d7f397",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "f192523b-12d5-4c06-b37d-9693989c1509",
+        "Errors": [
+          {
+            "NextAction": "ce8edbf7-1992-4349-9541-bc4aad93accb",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Sorry we are closed now.  Please call back during working hours."
+      },
+      "Identifier": "b3e0c6cd-8a74-4934-9046-08e81483a1ed",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "8c1bff00-ee69-4aea-90ba-cc31608da543",
+        "Errors": [
+          {
+            "NextAction": "ce8edbf7-1992-4349-9541-bc4aad93accb",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Sorry, an error occured.  This call will be disconnected.  Please call back later."
+      },
+      "Identifier": "ce8edbf7-1992-4349-9541-bc4aad93accb",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "8c1bff00-ee69-4aea-90ba-cc31608da543",
+        "Errors": [
+          {
+            "NextAction": "8c1bff00-ee69-4aea-90ba-cc31608da543",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "4572d6d7-c495-4e5f-9704-25974e5b2046",
+      "Type": "TransferContactToQueue",
+      "Transitions": {
+        "NextAction": "ce8edbf7-1992-4349-9541-bc4aad93accb",
+        "Errors": [
+          {
+            "NextAction": "108d5f57-08cb-40f4-8cc0-7350bc39dd4b",
+            "ErrorType": "QueueAtCapacity"
+          },
+          {
+            "NextAction": "ce8edbf7-1992-4349-9541-bc4aad93accb",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "HoursOfOperationId": "arn:aws:connect:us-west-2:629477142048:instance/c22f838f-ac5e-42e6-90c9-6b950427cefb/operating-hours/76020856-d282-4c3d-b929-a3bac6c7e99c"
+      },
+      "Identifier": "f192523b-12d5-4c06-b37d-9693989c1509",
+      "Type": "CheckHoursOfOperation",
+      "Transitions": {
+        "NextAction": "ce8edbf7-1992-4349-9541-bc4aad93accb",
+        "Conditions": [
+          {
+            "NextAction": "Inbound CWF",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "True"
+              ]
+            }
+          },
+          {
+            "NextAction": "b3e0c6cd-8a74-4934-9046-08e81483a1ed",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "False"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "ce8edbf7-1992-4349-9541-bc4aad93accb",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "EventHooks": {
+          "CustomerWhisper": "arn:aws:connect:us-west-2:629477142048:instance/c22f838f-ac5e-42e6-90c9-6b950427cefb/contact-flow/1fed741a-c869-4288-9a6d-43d86a5114f8"
+        },
+        "EventHooksConfiguration": {
+          "CustomerWhisper": {
+            "DisableExecution": "false"
+          }
+        }
+      },
+      "Identifier": "Inbound CWF",
+      "Type": "UpdateContactEventHooks",
+      "Transitions": {
+        "NextAction": "4572d6d7-c495-4e5f-9704-25974e5b2046",
+        "Errors": [
+          {
+            "NextAction": "4572d6d7-c495-4e5f-9704-25974e5b2046",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    }
+  ]
+}

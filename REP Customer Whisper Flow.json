@@ -1,0 +1,50 @@
+{
+  "Version": "2019-10-30",
+  "StartAction": "Announce Agent & Queue",
+  "Metadata": {
+    "entryPointPosition": {
+      "x": 40,
+      "y": 40
+    },
+    "ActionMetadata": {
+      "End Inbound Whisper Flow": {
+        "position": {
+          "x": 490.4,
+          "y": 169.6
+        },
+        "isFriendlyName": true
+      },
+      "Announce Agent & Queue": {
+        "position": {
+          "x": 190.4,
+          "y": 71.2
+        },
+        "isFriendlyName": true
+      }
+    },
+    "Annotations": [],
+    "name": "REP Customer Whisper Flow",
+    "description": "",
+    "type": "customerWhisper",
+    "status": "PUBLISHED",
+    "hash": {}
+  },
+  "Actions": [
+    {
+      "Parameters": {},
+      "Identifier": "End Inbound Whisper Flow",
+      "Type": "EndFlowExecution",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "Text": "Connecting to $.Queue.Name, agent $.Agent.FirstName $.Agent.Lastname"
+      },
+      "Identifier": "Announce Agent & Queue",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "End Inbound Whisper Flow"
+      }
+    }
+  ]
+}

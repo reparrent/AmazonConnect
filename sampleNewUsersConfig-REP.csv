@@ -1,0 +1,12 @@
+first name,last name,email address,password,user login,routing profile name,security_profile_name_1|security_profile_name_2,phone type (soft/desk),phone number,soft phone auto accept (yes/no),ACW timeout (seconds)
+Bob,Wilson,,P@ssw0rd,bobwilson,Customer Service Sales Routing Profile - Voice,Agent Outbound | Agent Inbound,soft,,no,0
+Tom,White,,P@ssw0rd,tomwhite,Customer Service Sales Routing Profile - Voice,Agent Outbound,soft,,no,0
+Lynda,Jones,,P@ssw0rd,lyndajones,Customer Service Sales Routing Profile - Voice,Agent Outbound,soft,,no,0
+Chris,Anderson,,P@ssw0rd,chrisanderson,Sales Routing Profile - Voice,Agent Outbound,soft,,no,0
+Joe,Martin,,P@ssw0rd,joemartin,Sales Routing Profile - Voice,Agent Outbound,soft,,no,0
+Ken,Smith,,P@ssw0rd,kensmith,Sales Routing Profile - Voice,Agent Outbound,soft,,no,0
+George,Williams,,P@ssw0rd,georgewilliams,Sales Routing Profile - Voice,Agent Outbound,soft,,no,0
+Tim,Robinson,,P@ssw0rd,timrobinson,Technical Support Routing Profile - Voice,Agent Outbound,soft,,no,0
+Jason,Walker,,P@ssw0rd,jasonwalker,Technical Support Routing Profile - Voice,Agent Outbound,soft,,no,0
+Richard,Lee,,P@ssw0rd,richardlee,Technical Support Routing Profile - Voice,Agent Outbound,soft,,no,0
+Michael,Carter,,P@ssw0rd,michaelcarter,Technical Support Routing Profile - Voice,Agent Outbound,soft,,no,0
