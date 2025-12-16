@@ -1,4 +1,4 @@
-# AmazonConnect
+# AmazonConnect DEPRICATED!  USE Amazon-Connect, not this one!
 Skills development for Amazon Connect
 Using UDEMY Course from Arin Nair (check spelling)
 Recommended by a professional colleague for greater personal marketability.
