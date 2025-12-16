@@ -1,0 +1,6 @@
+Testing Amazon connect:
+1 log into the CCP using an incognito window and browsing to you account URL (e.g. https://ptsv.my.connect.aws/home)
+  This gives you an agent to receive calls (if the agent status is "available")
+  This is a different user than the developer user.  This allows you to test routing and security profiles as well.
+  This will connect to my dormant iPhone via my internal home LAN.  I don't use that phone for speaking, I speak through the computer microphone.
+I generally use my live cell phone to make the calls
